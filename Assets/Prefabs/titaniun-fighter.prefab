@@ -55,6 +55,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: {x: 0, y: 0, z: 0}
   space: 0
+  runSpeed: 10
+  gotEspadaDestroyDelay: 1
+  dropDestroyDelay: 4
 --- !u!54 &-1676897559070731969
 Rigidbody:
   m_ObjectHideFlags: 0

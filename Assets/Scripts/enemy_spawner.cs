@@ -38,6 +38,14 @@ public class enemy_spawner : MonoBehaviour
 	{
 	    enemyList.Remove(enemy);
 	}
+	public void DestroyAllEnemies()
+	{
+		foreach (GameObject enemy in enemyList)
+		{
+			Destroy(enemy);
+		}
 
+		enemyList.Clear();
+	}
 }
 

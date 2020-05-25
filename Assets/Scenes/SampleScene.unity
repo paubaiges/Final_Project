@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -424,7 +424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478257263}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 684, y: -162, z: 201}
+  m_LocalPosition: {x: 208, y: -212, z: 0}
   m_LocalScale: {x: -0.9295448, y: -0.9295448, z: -0.9295448}
   m_Children: []
   m_Father: {fileID: 874348614}
@@ -454,7 +454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678928438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 590, y: 357, z: 0}
+  m_LocalPosition: {x: 338, y: 248, z: 0}
   m_LocalScale: {x: -0.87536, y: -0.87536, z: -0.87536}
   m_Children: []
   m_Father: {fileID: 874348614}
@@ -484,7 +484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698208149}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 684, y: 52, z: 0}
+  m_LocalPosition: {x: 340, y: 52, z: 0}
   m_LocalScale: {x: -0.87536, y: -0.87536, z: -0.87536}
   m_Children: []
   m_Father: {fileID: 874348614}
@@ -759,7 +759,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898098574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -627, y: 342, z: 0}
+  m_LocalPosition: {x: -24, y: 342, z: 0}
   m_LocalScale: {x: -0.87536, y: -0.87536, z: -0.87536}
   m_Children: []
   m_Father: {fileID: 874348614}
@@ -775,6 +775,10 @@ PrefabInstance:
     - target: {fileID: 131340, guid: d311c2eba135d5f4f89f06df5926956d, type: 3}
       propertyPath: m_Name
       value: Halberd_master_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 131340, guid: d311c2eba135d5f4f89f06df5926956d, type: 3}
+      propertyPath: m_TagString
+      value: Espada
       objectReference: {fileID: 0}
     - target: {fileID: 418530, guid: d311c2eba135d5f4f89f06df5926956d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1022,6 +1026,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1891627831}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1066644684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066644680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.017557126, y: 0.09771085, z: 0.007942186}
+  m_Center: {x: 0.0031393894, y: 0.0076312013, z: 0.0000000017604221}
+--- !u!54 &1066644685
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066644680}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1070930331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 131340, guid: d311c2eba135d5f4f89f06df5926956d,
@@ -1034,6 +1067,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 939027932}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1070930335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070930331}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1070930336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070930331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.017557118, y: 0.09771085, z: 0.0079421755}
+  m_Center: {x: 0.0031393887, y: 0.0076312018, z: 0.0000000010633883}
 --- !u!1 &1181699580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,7 +1120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181699580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -670, y: 112, z: 0}
+  m_LocalPosition: {x: -351, y: 146, z: 0}
   m_LocalScale: {x: -0.87536, y: -0.87536, z: -0.87536}
   m_Children: []
   m_Father: {fileID: 874348614}
@@ -1181,7 +1243,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302017072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -649, y: -127, z: 0}
+  m_LocalPosition: {x: -284, y: -219, z: 0}
   m_LocalScale: {x: -0.87536, y: -0.87536, z: -0.87536}
   m_Children: []
   m_Father: {fileID: 874348614}
@@ -1315,6 +1377,10 @@ PrefabInstance:
     - target: {fileID: 131340, guid: d311c2eba135d5f4f89f06df5926956d, type: 3}
       propertyPath: m_Name
       value: Halberd_master_right
+      objectReference: {fileID: 0}
+    - target: {fileID: 131340, guid: d311c2eba135d5f4f89f06df5926956d, type: 3}
+      propertyPath: m_TagString
+      value: Espada
       objectReference: {fileID: 0}
     - target: {fileID: 418530, guid: d311c2eba135d5f4f89f06df5926956d, type: 3}
       propertyPath: m_LocalPosition.x
