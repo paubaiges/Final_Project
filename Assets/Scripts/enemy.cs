@@ -41,7 +41,7 @@ public class enemy : MonoBehaviour
     {
         if (other.CompareTag("Espada") && !hitByEspada)
         {
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
             HitByEspada();
         }
 
