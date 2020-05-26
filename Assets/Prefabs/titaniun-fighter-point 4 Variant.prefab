@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &402732139169682488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7620562123315746112, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_Name
+      value: titaniun-fighter-point 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0128831435
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6802527
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0132499095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.73274475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -85.743004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620562123316234592, guid: aabfb2405d2105e4cb7e361993dbfa56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.108
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aabfb2405d2105e4cb7e361993dbfa56, type: 3}

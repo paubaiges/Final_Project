@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1588942666536140381
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -629.8962
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -346.93726
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3578138
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.16400407
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5198478
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19439861
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8155184
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -28.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 62.642002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688420631, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 9.555
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493266979688646967, guid: d6d8e478a6a070b48907303a45ea45c5,
+        type: 3}
+      propertyPath: m_Name
+      value: titaniun-fighter-point 2 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6d8e478a6a070b48907303a45ea45c5, type: 3}
