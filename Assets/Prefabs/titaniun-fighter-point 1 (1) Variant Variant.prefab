@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3643195721287099388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493266979688646967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cfe0b8ca9b7954085d80ce834f41a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: {x: 100, y: 0, z: 0}
+  space: 0
 --- !u!1001 &2992883428696932759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65,7 +79,25 @@ PrefabInstance:
     - target: {fileID: 1716875440606922912, guid: b6856275a28b7b043a9dadf9ddc38dd1,
         type: 3}
       propertyPath: m_Name
-      value: titaniun-fighter-point 1 (1) Variant
+      value: titaniun-fighter-point 1 (1) Variant Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2952029929777304520, guid: b6856275a28b7b043a9dadf9ddc38dd1,
+        type: 3}
+      propertyPath: movementSpeed.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2952029929777304520, guid: b6856275a28b7b043a9dadf9ddc38dd1,
+        type: 3}
+      propertyPath: movementSpeed.x
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -7585604120067301343, guid: b6856275a28b7b043a9dadf9ddc38dd1, type: 3}
+    - {fileID: 7762610220068631341, guid: b6856275a28b7b043a9dadf9ddc38dd1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b6856275a28b7b043a9dadf9ddc38dd1, type: 3}
+--- !u!1 &4493266979688646967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1716875440606922912, guid: b6856275a28b7b043a9dadf9ddc38dd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2992883428696932759}
+  m_PrefabAsset: {fileID: 0}

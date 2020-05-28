@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6900134334247003392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707759019607559010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cfe0b8ca9b7954085d80ce834f41a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: {x: -100, y: -100, z: 0}
+  space: 0
 --- !u!1001 &8927343480757422618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77,5 +91,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: titaniun-fighter-point 3 Variant Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5247490457927867454, guid: 58aa71d42460794458ccce6187b6bf63, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 58aa71d42460794458ccce6187b6bf63, type: 3}
+--- !u!1 &1707759019607559010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7806821037342949752, guid: 58aa71d42460794458ccce6187b6bf63,
+    type: 3}
+  m_PrefabInstance: {fileID: 8927343480757422618}
+  m_PrefabAsset: {fileID: 0}
