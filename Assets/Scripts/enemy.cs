@@ -44,6 +44,10 @@ public class enemy : MonoBehaviour
             //Destroy(other.gameObject);
             HitByEspada();
         }
+        if (other.CompareTag("Player") && !hitByEspada)
+        {
+            HitByEspada();
+        }
 
     }
     private void Drop()

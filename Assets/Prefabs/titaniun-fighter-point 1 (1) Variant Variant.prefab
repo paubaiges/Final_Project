@@ -91,6 +91,21 @@ PrefabInstance:
       propertyPath: movementSpeed.x
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 4976704199675930349, guid: b6856275a28b7b043a9dadf9ddc38dd1,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976704199675930349, guid: b6856275a28b7b043a9dadf9ddc38dd1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976704199675930349, guid: b6856275a28b7b043a9dadf9ddc38dd1,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7585604120067301343, guid: b6856275a28b7b043a9dadf9ddc38dd1, type: 3}
     - {fileID: 7762610220068631341, guid: b6856275a28b7b043a9dadf9ddc38dd1, type: 3}
